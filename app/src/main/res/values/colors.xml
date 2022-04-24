@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="black">#FF000000</color>
+    <!--网页顶部默认图标底色和按下图标底色-->
+    <color name="web_pressed">#292424</color>
+    <color name="web_default">#1A1A1A</color>
+
+    <color name="view_default">#353232</color>
+    <color name="recyclerviewbkg">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="scred1">#DD2121</color>
+    <color name="wcred2">#EA0D0D</color>
+<!--    recyclerVIew分割线的颜色-->
+    <color name="itemdecoration">#26353232</color>
+</resources>

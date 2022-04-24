@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">汇影视频</string>
+    <string name="query_hint">输入影片名称或演员名字</string>
+    <string name="pictureHint">图片提示</string>
+    <string name="selectJiekou">请选择解析接口</string>
+    <string name="shuaxin">刷新网页</string>
+    <string name="jiexi">视频解析</string>
+    <string name="closeweb">关闭网页</string>
+    <string name="qx">取消</string>
+    <string name="jxwzcw">当前网页暂不支持使用解析功能</string>
+    <string name="jiexijiekou">解析接口</string>
+
+    <string name="openceye">打开侧页</string>
+    <string name="closeceye">关闭侧页</string>
+
+    <string name="nav_edit">导航编辑</string>
+    <string name="ok">完成</string>
+    <string name="setDefault">还原默认</string>
+    <string name="nav_edit_hint">输入标题名称</string>
+    <string name="exitVideo">再按一次退出当前播放窗口</string>
+    <string name="exitActivity">再按一次退出</string>
+    <!--    使用format %1:第一个参数;%2:第二个参数；$d-整型 $s-字符串 $f-浮点型 -->
+    <string name="ci">阻止广告%1$d次</string>
+    <string name="tiao">%1$d条</string>
+    <!--    搜索线路-->
+    <string name="search1">搜索线路1</string>
+    <string name="search2">搜索线路2</string>
+    <string name="search3">搜索线路3</string>
+    <string name="search4">搜索线路4</string>
+    <string name="search5">搜索线路5</string>
+
+    <string name="activityjiexi">播放窗口</string>
+    <string name="activitywebbroswer">浏览窗口</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="lxhc">离线缓存</string>
+    <string name="lsjl">播放记录</string>
+    <string name="wdsc">我的收藏</string>
+    <string name="fxgt">分享给Ta</string>
+    <string name="llqms">设置浏览器模式</string>
+    <string name="xtsz">视频地址嗅探设置</string>
+    <string name="hcql">缓存垃圾清理</string>
+    <string name="gywm">关于我们</string>
+    <string name="ljggjs">累计拦截广告</string>
+    <string name="mzsm">免责声明</string>
+
+    <string name="adbtip">拦截广告提示</string>
+    <string name="AlertTitle">广告拦截清理</string>
+    <string name="xwsfql">已累计清理广告%1$d条，是否清零？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="qd">确定</string>
+
+    <string name="adbstate">广告过滤器状态</string>
+    <string name="adbon">打开</string>
+    <string name="adboff">关闭</string>
+    <string name="state1">打开|关闭</string>
+    <string name="state2">手机模式|电脑模式</string>
+    <string name="xpdzxt">视频地址嗅探</string>
+    <string name="xpdzxttip">视频地址嗅探提示</string>
+    <string name="webmode">浏览器内核模式</string>
+    <string name="hcqlcg">清理缓存成功</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">播放记录</string>
+    <string name="tab_text_2">我的收藏</string>
+    <string name="tab_text_3">视频地址</string>
+    <string name="tab_text_4">已下载文件</string>
+    <string name="addfavorite">加入收藏</string>
+    <string name="title_activity_jl_sc">记录&amp;收藏</string>
+    <string name="downTitle">下载文件</string>
+    <string name="qcwc">清除完毕</string>
+    <string name="allselect">全选</string>
+    <string name="sc">删除</string>
+    <string name="edit">编辑</string>
+    <string name="addfav">添加到收藏页</string>
+    <string name="deleteItem">删除此项目</string>
+    <string name="addhome">添加到首页</string>
+    <string name="addhome2">加入首页</string>
+    <string name="ytjzzm">已添加至首页</string>
+    <string name="netError">云端列表请求失败</string>
+    <string name="dgx">待添加功能</string>
+    <string name="exceptionMsg">很抱歉,程序出现异常,即将重启.</string>
+    <string name="probrem">常见问题</string>
+    <string name="webxf">  软件检测到浏览器状态不正常，可能无法正常使用，可能出现如下问题:\n
+        1、莫名其妙崩溃\n  2、视频无法播放或无法全屏\n  3、无法保存播放记录等问题;\n
+        点击确定按钮在打开的网页中点击【安装线上内核即可】</string>
+</resources>

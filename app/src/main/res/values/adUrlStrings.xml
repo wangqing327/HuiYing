@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adBlockUrls">
+        <item>ubmcmm.baidustatic.com</item>
+        <item>gss1.bdstatic.com/</item>
+        <item>cpro2.baidustatic.com</item>
+        <item>cpro.baidustatic.com</item>
+        <item>lianmeng.360.cn</item>
+        <item>nsclick.baidu.com</item>
+        <item>caclick.baidu.com/</item>
+        <item>jieaogd.com</item>
+        <item>publish-pic-cpu.baidu.com/</item>
+        <item>cpro.baidustatic.com/</item>
+        <item>hao61.net/</item>
+        <item>cpu.baidu.com/</item>
+        <item>pos.baidu.com</item>
+        <item>cbjs.baidu.com</item>
+        <item>cpro.baidu.com</item>
+        <item>images.sohu.com/cs/jsfile/js/c.js</item>
+        <item>union.sogou.com/</item>
+        <item>sogou.com/</item>
+        <item>5txs.cn/</item>
+        <item>liuzhi520.com/</item>
+        <item>yhzm.cc/</item>
+        <item>jieaogd.com</item>
+        <item>a.baidu.com</item>
+        <item>c.baidu.com</item>
+        <item>mlnbike.com</item>
+        <item>alipays://platformapi</item>
+        <item>alipay.com/</item>
+        <item>vipshop.com</item>
+        <item>govshenzhen.cn</item>
+        <item>govhebie.cn</item>
+        <item>img01.sogoucdn.com</item>
+        <item>s.pc.qq.com</item>
+
+        <item>oskjfkdlsjfds.</item>
+        <item>v1.cnzz.com</item>
+        <item>bhtbnb.qqqwww987.space</item>
+        <item>t-deksjdf.bhyd123.com</item>
+<!--            QQ广告-->
+        <item>btrace.video.qq.com</item>
+        <item>rpt.gdt.qq.com</item>
+        <item>v.smtcdns.com</item>
+<!--爱奇艺广告-->
+        <item>tracking.ad-survey.com</item>
+        <item>d-7c82fcfc-cache.71edge.com</item>
+        <item>mm3.365dmp.com/vw?</item>
+        <item>msg.qy.net</item>
+        <item>nl-rcd.iqiyi.com</item>
+        <item>piq.in-neo.cn/dar</item>
+        <item>pmpmonitor.365dmp.com/dsp/</item>
+        <item>qncdncnc.inter.71edge.com/videos</item>
+        <item>ckm.iqiyi.com/pixel</item>
+        <item>cm.cn.miaozhen.com/</item>
+        <item>kscdncnc.inter.71edge.com</item>
+        <item>61–179–110-1.ksyungslb.com/</item>>
+        <item>d-b65adbf3-cache.71edge.com</item>
+        <item>yunfcdncnc.inter.71edge.com</item>
+        <item>data.video.iqiyi.com/videos/other/</item>
+        <item>data.video.iqiyi.com/videos/vts/</item>
+<!--        优酷-->
+        <item>pagesdk.js</item>
+        <item>playersdk.js</item>
+        <item>mf.atm.youku.com/mf</item>
+<!--        芒果TV广告-->
+        <item>pagead2.googlesyndication.com</item>
+        <item>ad-banner</item>
+<!--        尾部不加new_video会弹出让浏览器关闭拦截广告功能-->
+        <item>da.mgtv.com/new_video</item>
+        <item>y.da.hunantv.com/</item>
+
+<!--        搜狐视频-->
+        <item>m.aty.sohu.com/h</item>
+
+<!--        BL解析广告-->
+        <item>mg.rywnvzd.cn/</item>
+<!--        七哥解析-->
+        <item>gw.alicdn.com</item>
+        <item>0735dj.co</item>
+<!--        无名小站 www.gov(laibing,chongqing)-->
+        <item>www.gov</item>
+<!--        笨笨鸡 oksdfjkskd.5ibanma.com-->
+        <item>oksdfjkskd</item>
+        <item>pc.stgowan.com</item>
+        <item>eew2ss.kbneks00.online</item>
+        <item>osdfjsk5</item>
+        <item>=http://m.benbenji.com</item>
+<!--        360影视PC端搜索广告
+        <item>show-g.mediav.com</item>
+        <item>static.mediav.com/js/mvf_g4.js</item>
+        -->
+        <item>e.so.com</item>
+
+<!--        凉城解析-->
+        <item>w.77nnv9.xyz</item>
+        <item>zl.shenhl.top</item>
+        <item>mg.npftmqv.cn</item>
+        <item>api.otantgi.cn</item>
+        <item>xothl.gbcnvip15.com</item>
+        <item>xg.svvbrkk.cn</item>
+        <item>mg.aztsefz.cn</item>
+        <item>hf.sxmcwlw.com</item>
+        <item>xg.adbeuch.cn</item>
+        <item>mg.rdlbkvo.cn</item>
+        <item>cdn.yuetx.cc</item>
+        <item>news.xiqqq.com</item>
+        <item>api.otantgi.cn</item>
+        <item>ssh.mzya5718.xyz</item>
+        <item>.huixianjiaoyuedu.com</item>
+
+    </string-array>
+</resources>

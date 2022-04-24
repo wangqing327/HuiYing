@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="popup_constraintLayout">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+<!--       <item name="background">@drawable/popupmenu_selected</item>-->
+    </style>
+<!--    分割线 -->
+    <style name="view_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+<!--侧滑菜单样式-->
+    <style name="sideMenuStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="settingTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <style name="settingCheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:button">@drawable/checkboxbackground</item>
+        <item name="minWidth">48dp</item>
+    </style>
+</resources>

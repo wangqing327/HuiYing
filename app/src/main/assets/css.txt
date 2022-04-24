@@ -1,0 +1,10 @@
+var l = document.createElement("style")
+l.type = "text/css"
+var h = "#root p{display:none;}\n"
+h += "#root div div:nth-child(3){display=none;}\n"
+h += "#tan{display=none;}\n"
+l.innerHTML = h
+document.head.appendChild(l)
+var nodes = document.getElementById("root").childNodes[0].childNodes
+nodes[2].style.display = "none"
+nodes[2].remove()

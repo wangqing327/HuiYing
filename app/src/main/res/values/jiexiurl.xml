@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jxurl">
+        <item>v.qq.com/</item>
+        <item>iqiyi.com/</item>
+        <item>youku.com/</item>
+        <item>mgtv.com/</item>
+        <item>tv.sohu.com/</item>
+        <item>le.com/</item>
+        <item>pptv.com/</item>
+        <item>1905.com/</item>
+        <item>bilibili.com/anime/</item>
+    </string-array>
+</resources>

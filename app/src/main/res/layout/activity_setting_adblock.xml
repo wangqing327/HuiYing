@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_setting_adblock_scene"
+    tools:context=".settingactivitys.SettingAdblockActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/settingTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/adbstate"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/adbState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/adbon"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/settingCheckBox"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/settingTitle"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/adbcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ljggjs"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/sidebutton2"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/adbcount"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/adbcount" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/adbtip"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/adbState2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/adbon"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkboxbackground"
+        android:checked="true"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <View
+        style="@style/view_Style"
+        android:layout_marginTop="16dp"
+        android:alpha="0.5"
+        android:background="@color/view_default"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        tools:layout_editor_absoluteX="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

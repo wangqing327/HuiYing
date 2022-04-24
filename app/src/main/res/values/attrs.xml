@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  设置列表  -->
+    <declare-styleable name="SettingViewLayout">
+        <!--        标题文本 默认16sp-->
+        <attr name="titleText" format="string" />
+        <!--        标题字体大小 默认16sp-->
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="TitleColor" format="reference|color" />
+        <!--        checkbox的tag,在回调事件中以这个为标识-->
+        <attr name="buttonTag" format="string" />
+        <!--        checkbox的最小宽度-->
+        <attr name="buttonMinWidth" format="dimension" />
+        <!--        是否选中 默认false-->
+        <attr name="checked" format="boolean" />
+        <!--        button样式-->
+        <attr name="buttonDrawable" format="reference" />
+        <!--        状态栏字体大小-->
+        <attr name="stateTextSize" format="dimension" />
+<!--        状态文本，中间带有"|",默认"打开|关闭"-->
+        <attr name="stateText" format="string" />
+        <attr name="stateTextColor" format="reference|color" />
+
+        <attr name="StateVisibility">
+            <!-- Visible on screen; the default value. -->
+            <enum name="visible" value="0" />
+            <!-- Not displayed, but taken into account during layout (space is left for it). -->
+            <enum name="invisible" value="1" />
+        </attr>
+
+        <attr name="TitleVisibility">
+            <!-- Visible on screen; the default value. -->
+            <enum name="visible" value="0" />
+            <!-- Not displayed, but taken into account during layout (space is left for it). -->
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="FloatButton">
+<!--        主容器背景颜色-->
+        <attr name="firstDivBackground" format="reference|color" />
+<!--        次容器背景色 显示视频数量的背景颜色-->
+        <attr name="secondDivBackground" format="reference|color" />
+<!--        显示视频数量的文本颜色-->
+        <attr name="showVideoColor" format="reference|color" />
+
+        <attr name="android:visibility">
+            <enum name="visible" value="0" />
+            <enum name="gone" value="2" />
+            <enum name="invisible" value="1" />
+        </attr>
+<!--        默认10sp-->
+        <attr name="showVideoTextSize" format="dimension" />
+        <attr name="videoText" format="integer" />
+
+    </declare-styleable>
+</resources>
